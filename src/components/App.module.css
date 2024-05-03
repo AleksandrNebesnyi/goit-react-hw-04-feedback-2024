@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px; 
+
+}
+.btnContainer{
+    display: flex;
+}
+.button{
+  background-color: #4CAF50; /* Зелений колір фону */
+  border: none; /* Видаляємо рамку */
+  color: white; /* Колір тексту білий */
+  padding: 15px 32px; /* Величина відступів */
+  text-align: center; /* Вирівнюємо текст по центру */
+  text-decoration: none; /* Видаляємо підкреслення тексту */
+  display: inline-block; /* Розташовуємо кнопку як блок */
+  font-size: 16px; /* Розмір шрифту */
+  margin: 4px 2px; /* Відступи між кнопками */
+  cursor: pointer; /* Змінюємо форму курсору на пальце */
+  border-radius: 8px; /* Закруглюємо кути */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Тінь */
+   
+}
+.button:hover {
+    background-color: #45a049; /* Зелений колір фону при наведенні */
+  }
+  .button:not(:last-child){
+    margin-right: 15px;
+  }
+
+  .statisticItem{
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
